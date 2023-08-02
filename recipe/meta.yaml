@@ -52,9 +52,12 @@ about:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
-  recipe-maintainers:
-    - conda-forge/r
-    - brendanf
+  anaconda-services:
+    ref:  https://anaconda.zendesk.com/agent/tickets/38329
+    recipe-maintainers:
+      - ianaobi
+      - bradley
+    
 
 # Package: zoib
 # Type: Package

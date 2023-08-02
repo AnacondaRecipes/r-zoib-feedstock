@@ -56,6 +56,7 @@ extra:
     ref:  https://anaconda.zendesk.com/agent/tickets/38329
     recipe-maintainers:
       - ianaobi
+      - bradley
     
 
 # Package: zoib
